@@ -1,0 +1,89 @@
+# Machine Learning with a Heart
+
+Machine Learning with a heart is Data Science competition hosted on DrivenData. When we want to use Data Science for good DrivenData is the right place to start.
+
+
+## Problem Description
+
+ Our goal is to predict the binary class heart_disease_present, which represents whether or not a patient has heart disease
+ 
+ 
+* 0 represents no heart disease present
+* 1 represents heart disease present
+
+
+### Dataset
+There are 14 columns in the dataset, where the patient_id column is a unique and random identifier. The remaining 13 features are described in the section below.
+    
+* slope_of_peak_exercise_st_segment (type: int): the slope of the peak exercise ST segment, an electrocardiography read out indicating quality of blood flow to the heart
+
+* thal (type: categorical): results of thallium stress test measuring blood flow to the heart, with possible values normal, fixed_defect, reversible_defect
+
+* resting_blood_pressure (type: int): resting blood pressure
+* resting_blood_pressure (type: int): resting blood pressure
+* chest_pain_type (type: int): chest pain type (4 values)
+* num_major_vessels (type: int): number of major vessels (0-3) colored by flourosopy
+* fasting_blood_sugar_gt_120_mg_per_dl (type: binary): fasting blood sugar > 120 mg/dl
+* resting_ekg_results (type: int): resting electrocardiographic results (values 0,1,2)
+* serum_cholesterol_mg_per_dl (type: int): serum cholestoral in mg/dl
+* oldpeak_eq_st_depression (type: float): oldpeak = ST depression induced by exercise relative to rest, a measure of abnormality in electrocardiograms
+* sex (type: binary): 0: female, 1: male
+* age (type: int): age in years
+* max_heart_rate_achieved (type: int): maximum heart rate achieved (beats per minute)
+* exercise_induced_angina (type: binary): exercise-induced chest pain (0: False, 1: True)
+
+
+## Performance Metric
+
+Logarithmic loss (related to cross-entropy) measures the performance of a classification model where the prediction input is a probability value between 0 and 1. The goal of our machine learning models is to minimize this value. A perfect model would have a log loss of 0.
+
+
+### Break down into end to end tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+## Built With
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+## Authors
+
+* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
