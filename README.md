@@ -36,3 +36,8 @@ There are 14 columns in the dataset, where the patient_id column is a unique and
 ## Performance Metric
 
 Logarithmic loss (related to cross-entropy) measures the performance of a classification model where the prediction input is a probability value between 0 and 1. The goal of our machine learning models is to minimize this value. A perfect model would have a log loss of 0.
+
+## Techniques Used
+* Mean Encodings
+* Ensembling (Random Forest)
+* Boosting (AdaBoost, XGBoost, GradientBoosting, CatBoost)
