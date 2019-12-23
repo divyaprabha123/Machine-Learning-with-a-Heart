@@ -5,7 +5,7 @@ Machine Learning with a heart is Data Science competition hosted on DrivenData. 
 
 ## Problem Description
 
- Our goal is to predict the binary class heart_disease_present, which represents whether or not a patient has heart disease
+ Our goal is to classify whether or not a patient has heart disease
  
  
 * 0 represents no heart disease present
